@@ -1,0 +1,40 @@
+.mint-button {
+    font-size: 24px;
+    color: #fefefe;
+    background-color: #ae0000;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.mint-count-wrapper {
+    position: absolute;
+    right: -200px;
+    top: 18px;
+    display: flex;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fefefe;
+    justify-content: center;
+    align-items: center;
+}
+
+.mint-count-minus, .mint-count-plus {
+    height: 30px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.mint-hint-text {
+    color: #fefefe;
+    font-size: 18px;
+    line-height: 18px;
+    min-height: 18px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.mint-button-wrapper {
+    position: relative;
+}
